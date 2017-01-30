@@ -3,6 +3,16 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist"
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "/static/*",
+        "destination": "/static/"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
