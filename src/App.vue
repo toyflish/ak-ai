@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <navBar></navBar>
+    <achievements></achievements>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import NavBar from './components/NavBar'
+import Achievements from './components/Achievements'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    NavBar,
+    Achievements
   }
 }
 </script>
