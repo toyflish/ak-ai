@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <navBar></navBar>
-    <achievements :goals="goals"></achievements>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,8 +10,8 @@ import NavBar from './components/NavBar'
 import Achievements from './components/Achievements'
 
 export default {
+//  router,
   name: 'app',
-  props: ['goals'],
   data () {
     return {dummyGoals: [{name: 'dummy goals'}]}
   },

@@ -1,6 +1,6 @@
 <template>
-  <div class="achievments">
-    <h1>Goals</h1>
+  <div class="achievements">
+    <h1>Achievments</h1>
     <ul>
       <li v-for="achievement in goals">{{achievement.name}}</li>
     </ul>

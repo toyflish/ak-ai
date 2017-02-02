@@ -1,6 +1,8 @@
 <template>
   <div class="nav">
-    NavBar
+    <router-link to="/">Home</router-link>
+    <router-link to="/goals">Goals</router-link>
+    <router-link to="/achievments">Achievements</router-link>
   </div>
 </template>
 
