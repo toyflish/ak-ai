@@ -65,8 +65,5 @@ new Vue({
   ]),
   firebase: {
     goals: db.ref('goals')
-  },
-  beforeCreate: function () {
-    store.commit('setRef', db.ref('goals'))
   }
 })
